@@ -1,0 +1,228 @@
+@font-face {
+      font-family: "Bitstream Vera Serif Bold";
+      src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+    }
+@font-face{
+    font-family:"Avenir LT W01 85 Heavy";
+src:url("http://fast.fonts.com/d/7147ec3a-8ff8-4ec9-8c5c-bd1571dc6ae6.woff?d44f19a684109620e4841470a790e818d8cc0dc2f4fbc17a43f9822fc140c9655d472896946d5d5626a3e0acbac5fc7b4de4f4adc740dfb90df84295f8f8b71d696b14a1eb8fc3a55d6e04024ea954e9dd2df28ea1680dc3dad6&projectId=eb6270bd-a7c3-4217-bc80-94ace2d1fb85") format('woff');}
+@font-face{
+font-family:"Avenir LT W01 45 Book";
+src:url("http://fast.fonts.com/d/939cba03-5b40-4d01-9bc5-7589eca863db.woff?d44f19a684109620e4841470a790e818d8cc0dc2f4fbc17a43f9822fc140c9655d472896946d5d5626a3e0acbac5fc7b4de4f4adc740dfb90df84295f8f8b71d696b14a1eb8fc3a55d6e04024ea954e9dd2df28ea1680dc3dad6&projectId=eb6270bd-a7c3-4217-bc80-94ace2d1fb85") format('woff');
+}
+
+@font-face{
+font-family:"AvenirLTW01-35LightObli";
+src:url("http://fast.fonts.com/d/47fd1045-6e5b-4c87-9235-cfbc2b42cde7.woff?d44f19a684109620e4841470a790e818d8cc0dc2f4fbc17a43f9822fc140c9655d472896946d5d5626a3e0acbac5fc7b4de4f4adc740dfb90df84295f8f8b71d696b14a1eb8fc3a55d6e04024ea954e9dd2df28ea1680dc3dad6&projectId=eb6270bd-a7c3-4217-bc80-94ace2d1fb85") format('woff');}
+
+
+body{
+
+        background-color: #000000;
+        
+}
+
+
+/*img {
+height: 230px;
+width: 298px;
+position: absolute;
+/* top: 15%; 
+margin: 100px 60px 30px 495px;
+}*/
+
+img{
+    
+    position: absolute;
+        max-width: 80%;
+        top: 10%;
+        left: 10%;
+    margin: 55px 20px 30px 372px;
+        border-radius: 3px;
+        box-shadow: 5px 3px 6px rgba (0,0,0,0.9);
+    }
+
+h1 {
+    font-size: 25px;
+	line-height: 24px;
+	letter-spacing: 2px;
+    font-weight: 300px;
+	color: #4086aa;
+    text-align: center;
+	font-family:'Avenir LT W01 85 Heavy';
+    font-weight: bolder;
+    left: 0;
+    line-height: 100px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 64%;
+    width: 100%;
+}
+
+h2 {
+    font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	color: white;
+    text-align: center;
+	font-family: "Bitstream Vera Serif Bold";
+    left: 0;
+    line-height: 100px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+}
+
+
+p {
+    font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	color: white;
+    text-align: center;
+	font-family:'Avenir LT W01 45 Book';
+    left: 0;
+    line-height: 100px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 75%;
+    width: 100%;
+}
+
+
+/* Custom Styling to Navbar
+---------------------------------- */
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+
+.right-inner-addon{
+    position: relative;
+    top: 8px;
+    right: 1px;
+    height: 3px;
+}
+
+.right-inner-addon input {
+    padding-right: 30px;
+
+}
+
+.right-inner-addon i{
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+
+<!-- header css -->
+
+header{
+	height:80px;
+	width:100%;
+	background:red;
+	overflow:hidden;
+}
+
+.main-name{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:800;
+	font-size:1.3em;
+	letter-spacing:0.1em;
+	height:40px;
+	line-height:40px;
+	width:200px;
+	margin:500px;
+	height:40px;
+}
+
+.main-name a{
+	padding:20px;
+	color:red;
+}
+
+.main-name a:hover{
+	color:#e6af61;
+}
+
+
+
+
+/* Letterbox HANDLING */
+
+.letterbox
+{
+    height: 130px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    margin: 650px 55px 500px 200px;
+    font-family: Garamond;
+    font-size: 18px;
+    display: inline-block;
+    word-wrap: break-word;
+    
+    
+}
+
+
+
+
+/* Responsive CSS
+---------------------------------- */
+
+@media (min-width: 213px){
+
+    .navbar-wrapper {
+         margin-top: 20px;
+        }
+    
+    .navbar-wrapper .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .navbar-wrapper .navbar{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    navbar-wrapper .navbar
+    {
+        border-radius: 4px;
+    }
+    
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 90%; }
+}
+}
