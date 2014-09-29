@@ -10,7 +10,7 @@ src:url("http://fast.fonts.com/d/939cba03-5b40-4d01-9bc5-7589eca863db.woff?d44f1
 
 #background1
 {
-	background-image: url('design/_316.jpg');
+	background-image: url('design/316.jpg');
 	background-size: cover;
 	/*background-color: blue;*/
 	min-height: 680px;
