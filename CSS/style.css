@@ -173,7 +173,7 @@ header{
 
 
 
-/* Letterbox commented out for now 
+/* Letterbox HANDLING */
 
 .letterbox
 {
@@ -189,8 +189,7 @@ header{
     word-wrap: break-word;
     
     
-} */
-
+}
 
 
 
