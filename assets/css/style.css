@@ -1,47 +1,78 @@
 /* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 @font-face {
-      font-family: "Bitstream Vera Serif Bold";
-      src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
-    }
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+}
 @font-face{
-font-family:"Avenir LT W01 45 Book";
-src:url("http://fast.fonts.com/d/939cba03-5b40-4d01-9bc5-7589eca863db.woff?d44f19a684109620e4841470a790e818d8cc0dc2f4fbc17a43f9822fc140c9655d472896946d5d5626a3e0acbac5fc7b4de4f4adc740dfb90df84295f8f8b71d696b14a1eb8fc3a55d6e04024ea954e9dd2df28ea1680dc3dad6&projectId=eb6270bd-a7c3-4217-bc80-94ace2d1fb85") format('woff');
+  font-family:"Avenir LT W01 45 Book";
+  src:url("http://fast.fonts.com/d/939cba03-5b40-4d01-9bc5-7589eca863db.woff?d44f19a684109620e4841470a790e818d8cc0dc2f4fbc17a43f9822fc140c9655d472896946d5d5626a3e0acbac5fc7b4de4f4adc740dfb90df84295f8f8b71d696b14a1eb8fc3a55d6e04024ea954e9dd2df28ea1680dc3dad6&projectId=eb6270bd-a7c3-4217-bc80-94ace2d1fb85") format('woff');
 }
 
 body {
   background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6em;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6em;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-webkit-overflow-scrolling: touch;*/
+  /*overflow-x: hidden; */
+}
+
+#padcontact
+{
+  margin-top: 80px;
+}
+
+
+.about-block{
+  padding: 74px 0px 123px 0px;
+}
+
+.quote{
+  color: #fff;
+}
+
+.quote-container{
+  margin: 10px 0px 40px 0px;
+  padding: 15px;  
+  background-color: #000;
+  opacity: 0.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #444;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #444;
 }
 /* Various Tweaks*/
+#eman
+{
+  width:30em;
+}
+
+.linebaby
+{
+  line-height: 1.45;
+}
 
 .line
 {
   width:55%;
-  margin: 1px 1px 0px 250px;
+  /*margin: 1px 1px 0px 250px;*/
 }
 .bg2
 {
-  
+
   font-family: "Avenir LT W01 45 Book";
   font-size: 20px;
 }
 .nuline
 {
   width:30%;
-  margin: 0px 1px 80px 440px;
+  /*margin: 0px 1px 80px 440px;*/
 }
 
 
@@ -63,11 +94,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .nufont
 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    color: white;
-    padding: 20px 20px 50px 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  padding: 20px 20px 50px 20px;
 }
 
 .myfont
@@ -85,11 +116,11 @@ h1, h2, h3, h4, h5, h6 {
 #bgcontact
 {
  /*background: url(../img/final.gif);*/
-  /*background-size: cover;*/
-  min-height: 550px;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
+ /*background-size: cover;*/
+ min-height: 550px;
+ margin-left: 0px;
+ margin-right: 0px;
+ width: 100%;
 }
 ul
 {
@@ -128,10 +159,14 @@ a.li
   background-size: cover;
   background-position: center center;
   min-height: 9px;
-  width: 100%
-
+  width: 100%;
 }
 
+.mobline
+{
+  width:50%
+  margin:;
+}
 
 
 /*End of Tweaks*/
@@ -145,63 +180,63 @@ h2{
 
 /*h1 {
 	font-size: 40px;
-}*/
+  }*/
 
-h3 {
-	font-weight: 400;
-}
+  h3 {
+   font-weight: 400;
+ }
 
-h4 {
-	font-weight: 400;
-	font-size: 20px;
-}
+ h4 {
+   font-weight: 400;
+   font-size: 20px;
+ }
 
-p {
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-family: "Avenir LT W01 45 Book";
+ p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Avenir LT W01 45 Book";
 
 }
 
 
 a {
-    color: #d6ee18;
-    word-wrap: break-word;
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+  color: #d6ee18;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
-    color: #b7cb1b;
-    text-decoration: none;
-    outline: 0;
+  color: #b7cb1b;
+  text-decoration: none;
+  outline: 0;
 }
 
 a:before,
 a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #c6d550;
+  color: #c6d550;
 }
 
 .alignleft {
-    text-align: left;
+  text-align: left;
 }
 .alignright {
-    text-align: right;
+  text-align: right;
 }
 
 .aligncenter {
-    text-align: center;
+  text-align: center;
 }
 
 .btn-theme  {
@@ -234,7 +269,7 @@ a.navbar-brand {
 	text-transform: uppercase;
 }
 a.navbar-brand:hover {
-    color: #ddd !important;
+  color: #ddd !important;
 }
 
 /* Header */
@@ -247,17 +282,17 @@ a.navbar-brand:hover {
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
-	width: 100%;
+	/*max-width:100%;*/
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
