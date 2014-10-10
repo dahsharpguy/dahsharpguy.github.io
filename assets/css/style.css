@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bg2
 {
-  /*height: 15em;*/
+  
   font-family: "Avenir LT W01 45 Book";
   font-size: 20px;
 }
@@ -43,6 +43,8 @@ h1, h2, h3, h4, h5, h6 {
   width:30%;
   margin: 0px 1px 80px 440px;
 }
+
+
 .mob
 {
   width: 50%;
@@ -52,6 +54,10 @@ h1, h2, h3, h4, h5, h6 {
 {
   font-family: "Avenir LT W01 45 Book";
   font-size: 20px;
+  width: 700px;
+  line-height: 1.8em;
+  color: whitesmoke;
+  font-weight: 100;
 
 }
 
@@ -59,8 +65,9 @@ h1, h2, h3, h4, h5, h6 {
 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 35px;
-    color: black;
+    font-size: 30px;
+    color: white;
+    padding: 20px 20px 50px 20px;
 }
 
 .myfont
@@ -72,11 +79,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.trans
+{color:transparent;}
+
 #bgcontact
 {
- background: url(../img/final.gif);
-  background-size: cover;
-  height: 450px;
+ /*background: url(../img/final.gif);*/
+  /*background-size: cover;*/
+  min-height: 550px;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
@@ -112,17 +122,30 @@ a.li
   color:black;
 }
 
+.nubg
+{
+  background-image: url(../img/Grey-desktop-wallpaper-met-green-spot.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 9px;
+  width: 100%
+
+}
+
+
+
 /*End of Tweaks*/
 
 h2{
   font-size: 30px;
   color: white;
-  margin: 10px 20px 50px 150px;
+  margin: 10px 20px 50px 60px;
+  width: 450px;
 }
 
-h1 {
+/*h1 {
 	font-size: 40px;
-}
+}*/
 
 h3 {
 	font-weight: 400;
@@ -135,7 +158,9 @@ h4 {
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: "Avenir LT W01 45 Book";
+
 }
 
 
@@ -240,7 +265,7 @@ a.navbar-brand:hover {
 #header h1 {
 	margin-top: 60px;
 	margin-bottom: 15px;
-	color: #fff;
+	color:#c6d550;
 	font-size: 40px;
 	font-weight: 900;
 	letter-spacing: -1px;
