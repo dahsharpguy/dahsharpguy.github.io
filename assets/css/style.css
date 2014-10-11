@@ -39,7 +39,7 @@ body {
   margin: 10px 0px 40px 0px;
   padding: 15px;  
   background-color: #000;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -352,3 +352,22 @@ p.copyright {
 	color: #fff;
 	text-align: center;
 }	
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+
+.circleborder {
+width: 300px;
+height: 300px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+background: url(../img/330.png) no-repeat;
+box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+}
