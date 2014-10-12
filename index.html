@@ -104,11 +104,12 @@
 	<!-- CONTACT -->
 
 	<div class="container-fluid" id="bgcontact">
+		<br><br>
 		<h1 class="text-center" id="contact">CONTACT ME</h1>
 		<center><img style = "max-width:100%; height:auto;" class="nuline" src="assets/img/line.png" ></center>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6"><br>
 					<p>
 						I'm currently available for freelance projects. If you're interested in working with me, please get in touch.
 					</p>
@@ -170,7 +171,20 @@
 
 
 	<script>
-	
+	$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 	</script>
 </body>
 </html>
